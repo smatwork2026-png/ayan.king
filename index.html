@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="PowerHit Cricket Store - Premium cricket equipment, bats, balls, gloves, pads, helmets and more. Shop the best cricket gear online.">
+    <title>PowerHit Cricket Store | Premium Cricket Equipment</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">🏏</div>
+                Power<span>Hit</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="nav-icon" id="searchBtn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <a href="cart.html" class="nav-icon" id="cartBtn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+
+        <div class="container">
+            <div class="hero-content fade-in-element">
+                <div class="hero-badge">
+                    <i class="fas fa-trophy"></i>
+                    #1 Cricket Equipment Store
+                </div>
+                <h1>
+                    Gear Up For
+                    <span class="highlight">Victory</span>
+                </h1>
+                <p class="hero-text">
+                    Discover premium cricket equipment trusted by professionals.
+                    From elite bats to protective gear, we've got everything you need to dominate the pitch.
+                </p>
+                <div class="hero-buttons">
+                    <a href="products.html" class="btn btn-primary btn-lg btn-animate">
+                        <i class="fas fa-shopping-bag"></i>
+                        Shop Now
+                    </a>
+                    <a href="about.html" class="btn btn-outline btn-lg btn-animate">
+                        Learn More
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Products</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4.9</div>
+                        <div class="stat-label">Rating</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="hero-img-wrapper">
+                    <div class="hero-img-bg"></div>
+                    <img src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&h=700&fit=crop"
+                        alt="Professional Cricket Player">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section" id="categories">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Shop By <span class="text-gold">Category</span></h2>
+                <p>Explore our wide range of professional cricket equipment</p>
+            </div>
+
+            <div class="grid grid-4 fade-in">
+                <a href="products.html?category=bats" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=400&h=400&fit=crop"
+                        alt="Cricket Bats">
+                    <div class="category-overlay">
+                        <h3 class="category-name">Bats</h3>
+                        <span class="category-count">45+ Products</span>
+                    </div>
+                </a>
+                <a href="products.html?category=balls" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=400&h=400&fit=crop"
+                        alt="Cricket Balls">
+                    <div class="category-overlay">
+                        <h3 class="category-name">Balls</h3>
+                        <span class="category-count">30+ Products</span>
+                    </div>
+                </a>
+                <a href="products.html?category=gloves" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1593766788306-28561086694e?w=400&h=400&fit=crop"
+                        alt="Cricket Gloves">
+                    <div class="category-overlay">
+                        <h3 class="category-name">Gloves</h3>
+                        <span class="category-count">25+ Products</span>
+                    </div>
+                </a>
+                <a href="products.html?category=kits" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=400&h=400&fit=crop"
+                        alt="Cricket Kits">
+                    <div class="category-overlay">
+                        <h3 class="category-name">Full Kits</h3>
+                        <span class="category-count">15+ Products</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section" style="background: var(--color-charcoal);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Featured <span class="text-gold">Products</span></h2>
+                <p>Top picks from our bestselling collection</p>
+            </div>
+
+            <div class="grid grid-4 fade-in" id="featuredProducts">
+                <!-- Product Card 1 -->
+                <div class="product-card" data-id="1" data-name="Pro Elite Bat" data-price="299"
+                    data-image="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=400&h=400&fit=crop">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=400&h=400&fit=crop"
+                            alt="Pro Elite Bat">
+                        <span class="product-badge">Bestseller</span>
+                        <div class="product-actions">
+                            <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+                            <a href="product-detail.html?id=1" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Cricket Bats</span>
+                        <h4 class="product-name">Pro Elite English Willow Bat</h4>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">$299</span>
+                            <span class="price-old">$349</span>
+                            <button class="add-to-cart-btn"
+                                onclick="addToCart(1, 'Pro Elite English Willow Bat', 299, 'https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=400&h=400&fit=crop')">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card" data-id="2" data-name="Tournament Ball Set" data-price="49"
+                    data-image="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=400&h=400&fit=crop">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=400&h=400&fit=crop"
+                            alt="Cricket Ball">
+                        <span class="product-badge">New</span>
+                        <div class="product-actions">
+                            <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+                            <a href="product-detail.html?id=2" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Cricket Balls</span>
+                        <h4 class="product-name">Tournament Leather Ball Set</h4>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(5.0)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">$49</span>
+                            <span class="price-old">$65</span>
+                            <button class="add-to-cart-btn"
+                                onclick="addToCart(2, 'Tournament Leather Ball Set', 49, 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=400&h=400&fit=crop')">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card" data-id="3" data-name="Pro Batting Gloves" data-price="89"
+                    data-image="https://images.unsplash.com/photo-1593766788306-28561086694e?w=400&h=400&fit=crop">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1593766788306-28561086694e?w=400&h=400&fit=crop"
+                            alt="Batting Gloves">
+                        <div class="product-actions">
+                            <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+                            <a href="product-detail.html?id=3" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Gloves</span>
+                        <h4 class="product-name">Pro Batting Gloves</h4>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.7)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">$89</span>
+                            <button class="add-to-cart-btn"
+                                onclick="addToCart(3, 'Pro Batting Gloves', 89, 'https://images.unsplash.com/photo-1593766788306-28561086694e?w=400&h=400&fit=crop')">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card" data-id="4" data-name="Elite Batting Pads" data-price="129"
+                    data-image="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=400&h=400&fit=crop">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=400&h=400&fit=crop"
+                            alt="Batting Pads">
+                        <span class="product-badge">Hot</span>
+                        <div class="product-actions">
+                            <button class="product-action-btn"><i class="fas fa-heart"></i></button>
+                            <a href="product-detail.html?id=4" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Pads</span>
+                        <h4 class="product-name">Elite Batting Pads</h4>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price-current">$129</span>
+                            <span class="price-old">$159</span>
+                            <button class="add-to-cart-btn"
+                                onclick="addToCart(4, 'Elite Batting Pads', 129, 'https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=400&h=400&fit=crop')">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: var(--space-2xl);">
+                <a href="products.html" class="btn btn-outline btn-lg">
+                    View All Products
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-4 fade-in">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h4>Free Shipping</h4>
+                    <p>Free delivery on orders over $100</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Quality Guarantee</h4>
+                    <p>100% authentic products</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    <h4>Easy Returns</h4>
+                    <p>30-day return policy</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h4>24/7 Support</h4>
+                    <p>Dedicated customer service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section" style="background: var(--color-charcoal);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>What Our <span class="text-gold">Customers</span> Say</h2>
+                <p>Trusted by thousands of cricket enthusiasts worldwide</p>
+            </div>
+
+            <div class="grid grid-3 fade-in">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left testimonial-quote"></i>
+                    <p class="testimonial-text">
+                        "Best cricket store I've ever purchased from. The quality of their bats is exceptional and
+                        delivery was super fast!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer" class="author-avatar">
+                        <div class="author-info">
+                            <h5>Rajesh Kumar</h5>
+                            <span>Professional Cricketer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left testimonial-quote"></i>
+                    <p class="testimonial-text">
+                        "Amazing collection of cricket gear. I found everything I needed for my son's cricket kit.
+                        Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer"
+                            class="author-avatar">
+                        <div class="author-info">
+                            <h5>Sarah Johnson</h5>
+                            <span>Happy Parent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left testimonial-quote"></i>
+                    <p class="testimonial-text">
+                        "PowerHit has the best prices and authentic products. Their customer service is top-notch. 5
+                        stars!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Customer" class="author-avatar">
+                        <div class="author-info">
+                            <h5>Ahmed Ali</h5>
+                            <span>Club Captain</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Stay <span class="text-gold">Updated</span></h2>
+                <p>Subscribe to get exclusive offers and latest updates</p>
+            </div>
+
+            <form class="fade-in" style="max-width: 500px; margin: 0 auto; display: flex; gap: var(--space-md);">
+                <input type="email" class="form-input" placeholder="Enter your email" style="flex: 1;">
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">🏏</div>
+                        Power<span>Hit</span>
+                    </a>
+                    <p>Your trusted destination for premium cricket equipment. Quality gear for champions.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="products.html?category=bats">Cricket Bats</a></li>
+                        <li><a href="products.html?category=balls">Cricket Balls</a></li>
+                        <li><a href="products.html?category=gloves">Gloves</a></li>
+                        <li><a href="products.html?category=pads">Pads</a></li>
+                        <li><a href="products.html?category=helmets">Helmets</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone" style="margin-right: 8px; color: var(--color-gold);"></i> +1 234 567
+                            890</li>
+                        <li><i class="fas fa-envelope" style="margin-right: 8px; color: var(--color-gold);"></i>
+                            info@powerhit.com</li>
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 8px; color: var(--color-gold);"></i>
+                            123 Cricket Lane, Sports City</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 PowerHit Cricket Store. All rights reserved.</p>
+                <div class="payment-methods">
+                    <span style="color: var(--color-light-gray); font-size: var(--fs-sm);">
+                        <i class="fab fa-cc-visa" style="font-size: 24px; margin-right: 8px;"></i>
+                        <i class="fab fa-cc-mastercard" style="font-size: 24px; margin-right: 8px;"></i>
+                        <i class="fab fa-cc-paypal" style="font-size: 24px; margin-right: 8px;"></i>
+                        <i class="fab fa-cc-apple-pay" style="font-size: 24px;"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-bag"></i> Your Cart</h3>
+            <button class="cart-close" id="cartClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be dynamically added here -->
+            <p style="text-align: center; color: var(--color-gray); padding: var(--space-xl);">Your cart is empty</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">$0</span>
+            </div>
+            <a href="checkout.html" class="btn btn-primary">
+                Proceed to Checkout
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
